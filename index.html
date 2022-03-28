@@ -7,6 +7,7 @@
     <meta name="keywords" content="mths, ics2o">
     <meta name="author" content="Kenny Le">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
@@ -16,21 +17,23 @@
     <title>Area of a Parallelogram</title>
   </head>
   <body>
-   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <script src="./js/script.js"></script>
     <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class = "mdl-layout__header">
         <div class = "mdl-layout__header-row">      
           <span class = "mdl-layout-title">Area of a Parallelogram</span>          
-        </div>       
+        </div>
       </header>
       <main class = "mdl-layout__content">
-        <!-- basic text -->
-        <br>
-        <h3>Input the dimensions for the base and height of the parallelogram.</h3>
+        <img src="./img/parallelogram.png" alt="parallelogram" width="40%" height="auto" />
         <br>
         <!-- basic text -->
-        <p><br>Please input the base measurement:</p>
+        <h4>Formula for the Area of a Parallelogram</h4>
+        <h5>A = B x H</h5>
+        <h3>Input the dimensions of the base and height of the parallelogram.</h3>
+        <br>
+        <p>Please input the base measurement:</p>
         <!-- Numeric Textfield -->
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
@@ -41,7 +44,8 @@
         </form>
         <br>
         <!-- basic text -->
-        <p><br>Please input the height measurement:</p>
+        <br>
+        <p>Please input the height measurement:</p>
         <!-- Numeric Textfield -->
         <form action="#">
           <div class="mdl-textfield mdl-js-textfield">
@@ -51,11 +55,16 @@
           </div>
         </form>
         <!-- Raised button with ripple -->
-        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="enterClicked()">
-          Enter!
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="calculate()">
+          Calculate
         </button>
         <br>
         <br>
+        <p>
+          <div id="answers">
+            <div id="area"></div>
+          </div>
+        </p>
       </main>
     </div>
   </body>
