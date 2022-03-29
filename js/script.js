@@ -17,5 +17,5 @@ function calculate () {
   const area = base * height
 
   // output
-  document.getElementById('area').innerHTML = 'The area of the parallelogram is: ' + area + ' cm²'
+  document.getElementById('area').innerHTML = 'The area of the parallelogram is: ' + area.toFixed(2) + ' cm²'
 }
