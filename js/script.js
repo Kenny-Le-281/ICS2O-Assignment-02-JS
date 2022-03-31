@@ -6,7 +6,7 @@
 'use strict'
 
 /**
- * This function calculates the area and perimeter of the parallelogram.
+ * This function calculates the area of the parallelogram.
  */
 function calculate () {
   // input

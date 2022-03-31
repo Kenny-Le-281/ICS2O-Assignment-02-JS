@@ -11,30 +11,30 @@
 
 p {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 20px;
 }
 
 h3 {
-  font: 20pt Verdana, Geneva, Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font: 20pt sans-serif;
   line-height: 16pt;
 }
 
 h4 {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 1.5rem;
 }
 
 h5 {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 
 #area {
   color: black;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   font-size: 1.5rem;
 }
